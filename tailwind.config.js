@@ -5,7 +5,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontSize: {
+      xl: ['120px', '32px'],
+    },
+    colors: {
+      'sky-100' : '#004764',
+      'sky-200' : '#7AE5F5',
+      'gray-100' : '#424549'
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 }
