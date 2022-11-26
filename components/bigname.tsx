@@ -1,14 +1,12 @@
-import Image from 'next/image'
-import watercolorCloud from '../public/watercolorCloud.png'
 import { motion } from "framer-motion"
 
 export default function BigName(){
     return(
-        <main className='pt-96 text-xl text-center'>
-            <motion.div initial="hidden" animate="visible" variants={{
+        <div className=''>
+            <motion.div className='pt-80 text-xl text-center' initial="hidden" animate="visible" variants={{
                 hidden: {
                     scale: .8,
-                    opacity: 1
+                    opacity: 0
                 },
                 visible: {
                     scale: 1, 
@@ -20,22 +18,11 @@ export default function BigName(){
             }}> 
             Jana Tahan           
             </motion.div>
+            
+            <div className='text-lg pt-16 flex items-center justify-center'>
+                Full stack web developer, UI/UX designer, and game art designer
+            </div>
 
-            <motion.div className="" initial="hidden" animate="visible" variants={{
-                hidden: {
-                    scale: .8,
-                    opacity: 1
-                },
-                visible: {
-                    scale: 1, 
-                    opacity: 1,
-                    transition: {
-                        delay: .4
-                    }
-                },
-            }}> 
-            </motion.div>
-
-        </main>
+        </div>
     )
 }
