@@ -20,7 +20,15 @@ export default function BigName(){
             </motion.div>
             
             <div className='text-lg pt-16 flex items-center justify-center'>
-                Full stack web developer, UI/UX designer, and game art designer
+                <ul className="text-center">
+                    <li>
+                    Full stack web developer, UI/UX designer, and 
+                    </li>
+
+                    <li className="pt-2">
+                    game art designer
+                    </li>
+                </ul>
             </div>
 
         </div>
