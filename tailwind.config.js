@@ -16,7 +16,9 @@ module.exports = {
       'purple' : '#800080'
     },
     extend: {
-
+      spacing: {
+        '400px' : '36rem'
+      },
     },
   },
   plugins: [],
