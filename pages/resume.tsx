@@ -1,4 +1,3 @@
-import ResumeHeader from "../components/resumeheader"
 import ResumeInfo from "../components/resumeinfo"
 
 export default function Resume(){
