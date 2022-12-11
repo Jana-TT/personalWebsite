@@ -4,9 +4,9 @@ import Subsection from "../components/subsection"
 
 export default function Resume(){
     return(
-        <div className = "svg-wrapper">
+        <div className = "">
            hello
-            
+ 
             
         </div>
     )
