@@ -4,8 +4,8 @@ import Subsection from "../components/subsection"
 
 export default function Resume(){
     return(
-        <div className = "box">
-           
+        <div className = "svg-wrapper">
+           hello
             
             
         </div>
