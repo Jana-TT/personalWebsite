@@ -9,7 +9,7 @@ export default function Skills() {
             <Card pageLink='/resume' title='Skills' content={["Languages: JavaScript, C++, Python", "Front-End Framework: React", 
             "Game Engine: Unity", "Databases: NoSQL (MongoDb), DGraph", "Source Control: Git, PlasticSCM", "Operating System: Windows"]}/> 
 
-            <Card pageLink='games' title='Games' content={["2D Space Shooter: HullBreakers", "Arcade Game: Butterslide"]}/> 
+            <Card pageLink='gamedevelopment' title='Games' content={["2D Space Shooter: HullBreakers", "Arcade Game: Butterslide"]}/> 
 
             <Card pageLink='websites' title='Websites' content={["Reservation System: OpenTable", "Personal Portfolio: this website"]}/> 
 

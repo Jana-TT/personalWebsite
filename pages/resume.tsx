@@ -16,6 +16,10 @@ export default function Resume(){
 
                 <HeaderInfo header="Skills"/>
                 <ResumeInfo info={["Languages: JavaScript, C++, Python", "Front-End Framework: React", "Game Engine: Unity", "Databases: NoSQL (MongoDB), DGraph", "Source Control: Git, PlasticSCM", "Operating System: Windows"]}/>
+
+                <HeaderInfo header="Work Experience"/>
+
+
             </div>
 
         </div>
