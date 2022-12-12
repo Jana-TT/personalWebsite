@@ -4,7 +4,7 @@ interface props {
 
 export default function ResumeInfo( {info} : props){
     return(
-        <div className="pt-3">
+        <div className="font-serif max-w-sm border p-4 border rounded border-2">
             {info.map((e) => 
             <ul key={e}>
                 

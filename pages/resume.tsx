@@ -10,10 +10,12 @@ export default function Resume(){
                 
             </div>
           
-            <div className="w-5/6 pl-8">
+            <div className="w-5/6 pl-8 pt-2">
                 <HeaderInfo header="Education"/>
+                <ResumeInfo info={["University of Houston", "B.S. Computer Science", "Minor - Mathematics", "August 2019 - December 2022", "Awards:", "** Dean's List - Fall 2019", "** Dean's Distinguished Scholars - Spring 2021"]}/>
+
                 <HeaderInfo header="Skills"/>
-                <HeaderInfo header="Work Experience"/>
+                <ResumeInfo info={["Languages: JavaScript, C++, Python", "Front-End Framework: React", "Game Engine: Unity", "Databases: NoSQL (MongoDB), DGrpah", "Source Control: Git, PlasticSCM", "Operating System: Windows"]}/>
             </div>
 
         </div>
