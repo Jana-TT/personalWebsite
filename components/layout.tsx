@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./mainScreen/header"
 
 interface props{
-    children: JSX.Element
+    children?: React.ReactNode
 }
 
 export default function Layout({ children }: props){
