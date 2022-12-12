@@ -14,7 +14,8 @@ module.exports = {
       'sky-100' : '#004764',
       'sky-200' : '#7AE5F5',
       'gray-100' : '#424549',
-      'purple' : '#800080'
+      'galaxy-500' : '#FFC0CB',
+      'galaxy-400': '#800080',
     },
     extend: {
       spacing: {
