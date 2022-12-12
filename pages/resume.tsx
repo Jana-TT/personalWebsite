@@ -12,6 +12,8 @@ export default function Resume(){
           
             <div className="w-5/6 pl-8">
                 <HeaderInfo header="Education"/>
+                <HeaderInfo header="Skills"/>
+                <HeaderInfo header="Work Experience"/>
             </div>
 
         </div>

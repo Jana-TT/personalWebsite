@@ -10,7 +10,7 @@ const HeaderInfo = ({ header } : props) => {
       hidden: { opacity: 0 },
       visible: (i = 1) => ({
         opacity: 1,
-        transition: { staggerChildren: 0.02, delayChildren: 0.02 * i },
+        transition: { staggerChildren: 0.01, delayChildren: 0.01 * i },
       }),
     };
   
