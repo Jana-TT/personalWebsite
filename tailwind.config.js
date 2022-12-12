@@ -11,9 +11,10 @@ module.exports = {
       xl: ['120px', '32px'],
     },
     colors: {
-      'sky-100' : '#004764',
-      'sky-200' : '#7AE5F5',
       'gray-100' : '#424549',
+      'gray-200': '#36393e',
+      'gray-300': '#282b30',
+      'gray-400': '#1e2124',
       'galaxy-500' : '#FFC0CB',
       'galaxy-400': '#800080',
       'blush': '#DE9DAC',

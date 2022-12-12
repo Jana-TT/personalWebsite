@@ -1,5 +1,5 @@
 import Info from "./info"
-import Title from "./title"
+import Title from "../animations/title"
 
 export default function BigName(){
     return(

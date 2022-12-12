@@ -1,6 +1,6 @@
-import BigName from '../components/bigname'
-import Header from '../components/header'
-import Skills from '../components/skills'
+import BigName from '../components/mainScreen/bigname'
+import Header from '../components/mainScreen/header'
+import Skills from '../components/mainScreen/skills'
 
 
 export default function Home() {
