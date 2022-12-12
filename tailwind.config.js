@@ -16,6 +16,7 @@ module.exports = {
       'gray-100' : '#424549',
       'galaxy-500' : '#FFC0CB',
       'galaxy-400': '#800080',
+      'blush': '#DE9DAC',
     },
     extend: {
       spacing: {
