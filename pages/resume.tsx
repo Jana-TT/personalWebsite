@@ -1,6 +1,5 @@
 import HeaderInfo from "../components/animations/headerinfo"
 import ResumeInfo from "../components/resume/resumeinfo"
-import SideBar from "../components/sidebar"
 
 export default function Resume(){
     return(
