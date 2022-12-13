@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     fontSize: {
       md: ['19px', '30px'],
+      md2: ['26px', '30px'],
       lg: ['32px', '32px'],
       xl: ['120px', '32px'],
     },
