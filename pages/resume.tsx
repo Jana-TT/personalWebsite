@@ -5,11 +5,11 @@ import SideBar from "../components/sidebar"
 
 export default function Resume(){
     return(
-        <div className = "flex">
+        <div className = "h-screen flex">
 
             <SideBar/>
           
-            <div className="pl-8 pt-2">
+            <div className="pl-8 pt-2 w-5/6">
                 <HeaderInfo header="Education"/>
                 <ResumeInfo info={["University of Houston", "B.S. Computer Science", "Minor - Mathematics", "August 2019 - December 2022", "Awards:", "** Dean's List - Fall 2019", "** Dean's Distinguished Scholars - Spring 2021"]} subcontent={[]}/>
 
