@@ -6,7 +6,7 @@ interface props {
 
 export default function ResumeInfo( {info, subcontent, title} : props){
     return(
-        <div className="font-serif max-w-sm p-4 border rounded border-2 border-blush">
+        <div className="font-serif max-w-sm p-4 border rounded border-2 border-blush bg-gray-400">
             <div className="text-md2">
                 {title.map((e) => 
                 <ul key={e}>
