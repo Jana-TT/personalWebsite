@@ -9,7 +9,9 @@ module.exports = {
       md: ['19px', '30px'],
       md2: ['26px', '30px'],
       lg: ['32px', '32px'],
+      lg2: ['48px', '58px'],
       xl: ['120px', '32px'],
+      xxl: ['160px', '32px'],
     },
     colors: {
       'gray-100' : '#424549',

@@ -34,14 +34,13 @@ const HeaderInfo = ({ header } : props) => {
   
     return (
       <motion.div
-      
         style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
         variants={container}
         initial="hidden"
         animate="visible"
       >
         {letters.map((letter, index) => (
-          <motion.span variants={child} key={index}>
+          <motion.span variants={child} key={index}  className="text-lg2">
             {letter === " " ? "\u00A0" : letter}
           </motion.span>
         ))}
