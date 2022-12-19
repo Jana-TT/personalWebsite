@@ -1,4 +1,3 @@
-import SideBar from "../sidebar";
 import Card from "./card";
 
 export default function Skills() {
