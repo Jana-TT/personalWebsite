@@ -1,22 +1,42 @@
 import Image from "next/image"
+import Link from "next/link"
 
 interface props {
     imageSource: string
-    description: string
+    description: string[]
+    title: string
+    linkto: string
     widthLength: number
     heightLength: number
 }
 
-export default function Template( {imageSource, description, widthLength, heightLength}: props) {
+export default function Template( {imageSource, description, widthLength, heightLength, title, linkto}: props) {
     return(
 
-        <div className="justify-center flex pt-6">
-            <Image src={imageSource} alt={""} width={widthLength} height={heightLength}/>
+        <Link href={linkto} className="flex flex-col items-center pt-4">
 
-            <div className="pl-6">
-                {description}
-            </div>
+            <button className="flex hover:border rounded p-2 hover:bg-gray-300 border-blush hover:border-2">
 
-        </div>
+                <Image src={imageSource} alt={""} width={widthLength} height={heightLength} />
+
+                <div className="pl-6 text-left">
+
+                    <div className="text-lg">
+                        {title}
+                    </div>
+
+                    <div className="font-serif text-md pt-4">
+                        {description.map((e) => 
+                        <ul key={e}>
+                            {e}
+                        </ul>
+                        )}
+                    </div>
+                    
+                </div> 
+
+            </button>
+
+        </Link>
     )
 }
