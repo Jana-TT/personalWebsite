@@ -15,7 +15,7 @@ export default function Template( {imageSource, description, widthLength, height
 
         <Link href={linkto} className="flex flex-col items-center pt-4">
 
-            <button className="flex hover:border rounded p-2 hover:bg-gray-300 border-blush hover:border-2">
+            <button className="bg-gray-300 flex hover:border rounded p-2 hover:bg-gray-200 border-blush hover:border-2">
 
                 <Image src={imageSource} alt={""} width={widthLength} height={heightLength} />
 
