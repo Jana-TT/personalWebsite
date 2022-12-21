@@ -10,6 +10,7 @@ export default function Layout({ children }: props){
         <>
             <Header/>
             <main>{children}</main>
+           
         </>
     )
 }

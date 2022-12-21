@@ -7,7 +7,7 @@ export default function Resume(){
         <div className="flex items-stretch justify-center space-x-6 mt-16">
 
             <div>
-                <HeaderInfo header="Education" />
+                <HeaderInfo header="Education"/>
                 <div className="pt-2">
                     <ResumeInfo title={[]} info={["University of Houston", "B.S. Computer Science", "Minor - Mathematics", "August 2019 - December 2022", "Awards:", "** Dean's List - Fall 2019", "** Dean's Distinguished Scholars - Spring 2021"]} subcontent={[]} />
                 </div>

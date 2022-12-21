@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import HeaderInfo from "../animations/headerinfo"
 
 interface props {
     imageSource: string
@@ -17,7 +18,7 @@ export default function Template( {imageSource, description, widthLength, height
 
             <button className="bg-gray-300 flex hover:border rounded p-2 hover:bg-gray-200 border-blush hover:border-2">
 
-                <Image src={imageSource} alt={""} width={widthLength} height={heightLength} />
+                <Image src={imageSource} alt={""} width={widthLength} height={heightLength}/>
 
                 <div className="pl-6 text-left">
 
