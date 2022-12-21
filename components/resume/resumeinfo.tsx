@@ -15,7 +15,7 @@ export default function ResumeInfo( {info, subcontent, title} : props){
                 )}
             </div> 
 
-            <div className="text-md2 ">
+            <div className="text-md2">
                 {subcontent.map((e) => 
                 <ul key={e}>
                     {e}
