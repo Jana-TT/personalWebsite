@@ -51,7 +51,7 @@ const HeaderInfo = ({ header, d1, d2, d3} : props) => {
         ))}
 
         <div className="pl-4 pt-3">
-          <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg%22%3E"><path d={d1}></path><path d={d2}></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={d3}></path></svg>
+          <svg className="w-10 h-10 stroke-blush" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg%22%3E"><path d={d1}></path><path d={d2}></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={d3}></path></svg>
         </div>
 
       </motion.div>
