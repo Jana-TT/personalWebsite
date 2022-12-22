@@ -1,9 +1,13 @@
 import { motion } from "framer-motion"
 interface props {
     header : string
+
+    d1: string
+    d2: string
+    d3: string 
 }
 
-const HeaderInfo = ({ header } : props) => {
+const HeaderInfo = ({ header, d1, d2, d3} : props) => {
     const letters = Array.from(header);
   
     const container = {
@@ -45,6 +49,11 @@ const HeaderInfo = ({ header } : props) => {
             {letter === " " ? "\u00A0" : letter}
           </motion.span>
         ))}
+
+        <div className="pl-4 pt-3">
+          <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg%22%3E"><path d={d1}></path><path d={d2}></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={d3}></path></svg>
+        </div>
+
       </motion.div>
     );
   };
