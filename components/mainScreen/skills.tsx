@@ -11,7 +11,7 @@ export default function Skills() {
 
             <Card pageLink='gamedevelopment' title='Games' content={["2D Space Shooter: HullBreakers", "Arcade Game: Butterslide"]}/> 
 
-            <Card pageLink='websites' title='Websites' content={["Reservation System: OpenTable", "Personal Portfolio: this website"]}/> 
+            <Card pageLink='websites' title='Web Apps' content={["Reservation System: OpenTable", "Personal Portfolio: this website"]}/> 
 
         </div>
         

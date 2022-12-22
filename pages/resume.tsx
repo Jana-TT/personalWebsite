@@ -29,6 +29,9 @@ export default function Resume(){
                 <div className="pt-2">
                     <ResumeInfo title={["Game Art Designer"]} info={["Lead game art designer", "Created the 2D visual aspects of the game", "Collaborated with developers and artists on design and delivery of interactive applications"]} subcontent={["SmashShip Studios"]} />
                 </div>
+                <div className="pt-3">
+                    <ResumeInfo title={["Full Stack Web Developer"]} info={["Created a restaruant reservation system", "Framework: React", "Back-End: Dgraph", "Front-End: Tailwind CSS, CSS"]} subcontent={["OpenTable"]}/>
+                </div>
 
             </div>
 
