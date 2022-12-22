@@ -6,6 +6,7 @@ interface props {
 
 export default function Card({pageLink, title, content} : props) {
     return(
+        
         <a href={pageLink} className="inline-block p-6 border-gray-100 border-2 rounded-lg shadow-md hover:bg-gray-200 hover:outline-blush hover:outline hover:outline-3">
             <h5 className="mb-2 text-lg font-semibold">{title}</h5>
             {content.map((e) => 

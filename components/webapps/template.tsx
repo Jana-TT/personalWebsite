@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import HeaderInfo from "../animations/headerinfo"
 
 interface props {
     imageSource: string
