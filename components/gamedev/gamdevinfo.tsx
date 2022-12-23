@@ -12,7 +12,7 @@ interface props {
 
 export default function GameDevIn( {imageSource, description, widthLength, heightLength, title, linkto}: props) {
     return(
-        <div className="">
+        <>
 
             <Link href={linkto} className="flex flex-row items-center m-6 bg-blush rounded p-1 bg-gradient-to-tl from-galaxy-500 to-galaxy-400">
                 
@@ -40,6 +40,6 @@ export default function GameDevIn( {imageSource, description, widthLength, heigh
 
             </Link>
 
-        </div>
+        </>
     )
 }
