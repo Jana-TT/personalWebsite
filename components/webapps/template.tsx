@@ -13,6 +13,10 @@ export default function Template({text, imageSource, widthSize, heightSize}: pro
         <div className="flex p-4 pl-24">
             
             <Image src={imageSource} alt="" width={widthSize} height={heightSize} className=""/> 
+
+            <div className="flex pl-6">
+                {text}
+            </div>
             
         </div>
     )
