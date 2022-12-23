@@ -10,11 +10,11 @@ interface props{
 
 export default function Template({text, imageSource, widthSize, heightSize}: props) {
     return(
-        <div className="flex p-4 pl-24">
+        <div className="flex p-4 justify-center">
             
             <Image src={imageSource} alt="" width={widthSize} height={heightSize} className=""/> 
 
-            <div className="flex pl-6">
+            <div className="pl-4">
                 {text}
             </div>
             
