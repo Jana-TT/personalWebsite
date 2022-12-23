@@ -6,12 +6,12 @@ interface props{
     imageSource: string
     widthSize: number
     heightSize: number
+    linkPage: string
 }
 
-export default function Template({text, imageSource, widthSize, heightSize}: props) {
+export default function Template({text, imageSource, widthSize, heightSize, linkPage}: props) {
     return(
-        <div className="">
-            
+        <Link href={linkPage}>
             <div className="flex p-4 justify-center">
                 <Image src={imageSource} alt="" width={widthSize} height={heightSize}/> 
 
@@ -19,9 +19,6 @@ export default function Template({text, imageSource, widthSize, heightSize}: pro
                     {text}
                 </div>
             </div>
-
-           
-            
-        </div>
+        </Link>
     )
 }
