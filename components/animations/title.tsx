@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 interface props {
     name: string
+    
 }
 
 export default function Title( {name} : props) {
@@ -20,6 +21,7 @@ export default function Title( {name} : props) {
             },
         }}>
             {name}
+
         </motion.div>
 
         </div>

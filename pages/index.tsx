@@ -1,5 +1,4 @@
 import BigName from '../components/mainScreen/bigname'
-import Header from '../components/mainScreen/header'
 import Skills from '../components/mainScreen/skills'
 
 
