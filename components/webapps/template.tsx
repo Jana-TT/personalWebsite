@@ -10,12 +10,10 @@ interface props{
 
 export default function Template({text, imageSource, widthSize, heightSize}: props) {
     return(
-        <button className="flex items-stretch justify-center">
-
-            <div className="flex">
-                <Image src={imageSource} alt="" width={widthSize} height={heightSize}/> 
-            </div>
-
-        </button>
+        <div className="flex p-4 pl-24">
+            
+            <Image src={imageSource} alt="" width={widthSize} height={heightSize} className=""/> 
+            
+        </div>
     )
 }
