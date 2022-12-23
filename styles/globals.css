@@ -28,3 +28,8 @@ a {
     background: #1e2124;
   }
 }
+
+.fit-picture{
+  width: 50%;
+  height: 50%;
+}

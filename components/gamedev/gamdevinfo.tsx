@@ -10,12 +10,13 @@ interface props {
     heightLength: number
 }
 
-export default function GameDevInnfo( {imageSource, description, widthLength, heightLength, title, linkto}: props) {
+export default function GameDevIn( {imageSource, description, widthLength, heightLength, title, linkto}: props) {
     return(
+        <div className="">
 
-        <Link href={linkto} className="flex flex-col items-center pt-4">
-
-            <button className="bg-gray-300 flex hover:border rounded p-2 hover:bg-gray-200 border-blush hover:border-2 w-3/4">
+            <Link href={linkto} className="flex flex-row items-center m-6 bg-blush rounded p-1 bg-gradient-to-tl from-galaxy-500 to-galaxy-400">
+                
+                <button className="bg-gray-300 rounded p-4 flex hover:border rounded hover:bg-gray-200 border-blush hover:border-2 ">
 
                 <Image src={imageSource} alt={""} width={widthLength} height={heightLength}/>
 
@@ -35,8 +36,10 @@ export default function GameDevInnfo( {imageSource, description, widthLength, he
                     
                 </div> 
 
-            </button>
+                </button>    
 
-        </Link>
+            </Link>
+
+        </div>
     )
 }
