@@ -18,9 +18,9 @@ interface props{
 export default function Template({text, imageSource, widthSize, heightSize, linkPage, header2, d12, d22, d32}: props) {
     return(
         <Link href={linkPage}>
-            <div className="grid grid-cols-3 grid-flow-col pb-4 pt-6 pl-6 ">
+            <div className="grid grid-cols-3 grid-flow-col pb-4 pt-6 pl-6">
                 
-                <div className="">
+                <div className="border rounded">
                     <Image src={imageSource} alt="" width={widthSize} height={heightSize} className="rounded"/> 
                 </div>
 
