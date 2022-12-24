@@ -21,7 +21,7 @@ export default function Gamedevinfo({text, imageSource, widthSize, heightSize, l
             <div className="flex p-6 justify-center">
                 <Image src={imageSource} alt="" width={widthSize} height={heightSize}/> 
 
-                <div className="flex-none pl-6 text-md">
+                <div className="flex-none pl-6 text-md font-robot">
                     <HeaderInfo header={header2} d1={d12} d2={d22} d3={d32}/>
                     {text.map((e) => 
                         <ul key={e}>

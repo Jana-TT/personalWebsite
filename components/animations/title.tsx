@@ -7,7 +7,7 @@ interface props {
 export default function Title( {name} : props) {
     return(
         <div className="">
-            <motion.div className='pt-80 text-xl text-center' initial="hidden" animate="visible" variants={{
+            <motion.div className='pt-80 text-xl text-center font-cool' initial="hidden" animate="visible" variants={{
             hidden: {
                 scale: .8,
                 opacity: 0
@@ -20,7 +20,10 @@ export default function Title( {name} : props) {
                 }
             },
         }}>
-            {name}
+
+            <h1 className="">
+                {name}
+            </h1>
 
         </motion.div>
 

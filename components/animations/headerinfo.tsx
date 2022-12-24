@@ -45,7 +45,7 @@ const HeaderInfo = ({ header, d1, d2, d3} : props) => {
       >
         {letters.map((letter, index) => (
           
-          <motion.span variants={child} key={index} className="text-lg2">
+          <motion.span variants={child} key={index} className="text-lg2 font-cool ">
             {letter === " " ? "\u00A0" : letter}
           </motion.span>
         ))}

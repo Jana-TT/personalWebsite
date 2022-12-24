@@ -27,6 +27,10 @@ module.exports = {
       spacing: {
         '400px' : '36rem'
       },
+      fontFamily: {
+        cool: ['Orbitron'],
+        robot: ['Roboto']
+      }
     },
   },
   plugins: [],
