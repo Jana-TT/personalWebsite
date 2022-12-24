@@ -20,7 +20,7 @@ export default function Template({text, imageSource, widthSize, heightSize, link
         <Link href={linkPage}>
             <div className="grid grid-cols-3 grid-flow-col pb-4 pt-6 pl-6">
                 
-                <div className="border rounded">
+                <div className="rounded">
                     <Image src={imageSource} alt="" width={widthSize} height={heightSize} className="rounded"/> 
                 </div>
 
