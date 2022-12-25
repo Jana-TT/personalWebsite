@@ -17,7 +17,7 @@ interface props{
 
 export default function Gamedevinfo({text, imageSource, widthSize, heightSize, linkPage, header2, d12, d22, d32}: props) {
     return(
-        <Link href={linkPage} className="">
+        <Link href={linkPage} className="flex-row">
             <div className="flex p-6 justify-center">
                 <Image src={imageSource} alt="" width={widthSize} height={heightSize}/> 
 
