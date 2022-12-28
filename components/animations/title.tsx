@@ -21,7 +21,7 @@ export default function Title( {name} : props) {
             },
         }}>
 
-            <h1 className="">
+            <h1 className="whitespace-nowrap">
                 {name}
             </h1>
 

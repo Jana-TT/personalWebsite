@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../mainScreen/header"
+import Head from "next/head"
 interface props{
     children?: React.ReactNode
 }
@@ -7,6 +8,11 @@ interface props{
 export default function Layout({ children }: props){
     return(
         <>
+            <Head>
+                <title>Jana Tahan</title>
+                <link rel="icon" href="/letter_j.png"/>
+            </Head>
+
             <Header/>
             <main>{children}</main>
         </>
