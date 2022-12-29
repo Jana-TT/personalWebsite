@@ -6,7 +6,7 @@ interface props {
 
 export default function Title( {name} : props) {
     return(
-        <div className="">
+        <div className="relative">
             <motion.div className='pt-80 text-xl text-center font-cool' initial="hidden" animate="visible" variants={{
             hidden: {
                 scale: .8,
@@ -21,7 +21,7 @@ export default function Title( {name} : props) {
             },
         }}>
 
-            <h1 className="">
+            <h1 className="whitespace-nowrap">
                 {name}
             </h1>
 
