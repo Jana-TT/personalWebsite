@@ -20,7 +20,7 @@ export default function Gamedevinfo({text, imageSource, widthSize, heightSize, l
         <Link href={linkPage}>
             <div className="flex justify-center pt-8">
 
-                <div className="">
+                <div>
                     <Image src={imageSource} alt="" width={widthSize} height={heightSize}/> 
                 </div>
 
