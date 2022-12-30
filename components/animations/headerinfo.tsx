@@ -41,8 +41,7 @@ const HeaderInfo = ({ header, d1, d2, d3} : props) => {
         style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
         variants={container}
         initial="hidden"
-        animate="visible"
-      >
+        animate="visible">
           
           {letters.map((letter, index) => (
       
