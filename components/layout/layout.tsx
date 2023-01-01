@@ -10,7 +10,7 @@ export default function Layout({ children }: props){
         <>
             <Head>
                 <title>Jana Tahan</title>
-                <link rel="icon" href="/letter_j.png"/>
+                <link rel="icon" href="/cursive_j.png"/>
             </Head>
 
             <Header/>

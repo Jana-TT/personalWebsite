@@ -6,7 +6,7 @@ export default function BigName(){
         <div>
 
             <Title name='Jana Tahan'/>
-            <Info info={["React Full stack web developer, UI/UX designer, and", "game art designer"]}/>
+            <Info info={["React full stack web developer, UI/UX designer, and", "game art designer"]}/>
             
 
         </div>
