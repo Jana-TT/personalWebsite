@@ -1,18 +1,13 @@
 import Info from "./info"
 import Title from "../animations/title"
+import Skills from "./skills"
 
 export default function BigName(){
     return(
-        <div>
-
+        <div className="flex grid mx-auto">
             <Title name='Jana Tahan'/>
-
-            <div className="whitespace-nowrap">
-                <Info info={["React full stack web developer, UI/UX designer, and", "game art designer"]}/>
-            </div>
-            
-            
-
+            <Info info={["React full stack web developer, UI/UX designer, and", "game art designer"]}/>
+            <Skills/>
         </div>
     )
 }
