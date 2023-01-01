@@ -7,7 +7,7 @@ export default function BigName(){
 
             <Title name='Jana Tahan'/>
 
-            <div>
+            <div className="whitespace-nowrap">
                 <Info info={["React full stack web developer, UI/UX designer, and", "game art designer"]}/>
             </div>
             
