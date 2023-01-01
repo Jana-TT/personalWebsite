@@ -14,6 +14,7 @@ export default function Layout({ children }: props){
             </Head>
 
             <Header/>
+            
             <main>{children}</main>
         </>
     )
