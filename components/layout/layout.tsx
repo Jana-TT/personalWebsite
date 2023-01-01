@@ -12,9 +12,9 @@ export default function Layout({ children }: props){
                 <title>Jana Tahan</title>
                 <link rel="icon" href="/cursive_j.png"/>
             </Head>
+           
 
             <Header/>
-            
             <main>{children}</main>
         </>
     )
