@@ -24,7 +24,7 @@ export default function Template({text, imageSource, widthSize, heightSize, link
                     <Image src={imageSource} alt="" width={widthSize} height={heightSize} className="rounded"/> 
                 </div>
 
-                <div className="pl-6 text-md max-w-prose font-robot overflow-hidden">
+                <div className="pl-6 text-md max-w-prose font-robot overflow-visible">
                     <HeaderInfo header={header2} d1={d12} d2={d22} d3={d32}/>
                     {text.map((e) => 
                         <ul key={e}>

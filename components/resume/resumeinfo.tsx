@@ -7,7 +7,7 @@ interface props {
 export default function ResumeInfo( {info, subcontent, title} : props){
     return(
             <div className="font-robot max-w-md p-4 border rounded border-2 border-blush bg-gray-400 text-md">
-                <div className="text-lg whitespace-nowrap">
+                <div className="text-lg">
                     {title.map((e) => 
                     <ul key={e}>
                         {e}
@@ -23,7 +23,7 @@ export default function ResumeInfo( {info, subcontent, title} : props){
                     )}
                 </div> 
 
-                <div className="">
+                <div>
                     {info.map((e) => 
                     <ul key={e}>
                             

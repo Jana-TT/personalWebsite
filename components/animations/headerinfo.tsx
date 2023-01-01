@@ -38,7 +38,7 @@ const HeaderInfo = ({ header, d1, d2, d3} : props) => {
   
     return (
       <motion.div
-        style={{ overflow: "", display: "flex", fontSize: ""}}
+        style={{ overflow: "hidden", display: "flex", fontSize: ""}}
         variants={container}
         initial="hidden"
         animate="visible">
