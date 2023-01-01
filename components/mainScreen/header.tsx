@@ -10,5 +10,7 @@ export default function Header(){
             <ButtonHeader pageLink="/gamedevelopment" buttonName="Game Dev"/>
             <ButtonHeader pageLink="/contactme" buttonName="Contact Me"/>
         </div>
+            
+    
     )
 }
