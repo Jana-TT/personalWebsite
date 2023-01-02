@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import HeaderInfo from "../animations/headerinfo"
+import WebappIcon from "./webappicon"
 
 interface props{
     text: string[]
@@ -13,9 +14,13 @@ interface props{
     d12: string
     d22: string
     d32: string 
+
+    logoSource: string
+    widthLogo: number
+    heightLogo: number
 }
 
-export default function Template({text, imageSource, widthSize, heightSize, linkPage, header2, d12, d22, d32}: props) {
+export default function Template({text, imageSource, widthSize, heightSize, linkPage, header2, d12, d22, d32, logoSource, widthLogo, heightLogo}: props) {
     return(
         <Link href={linkPage}>
             <div className="flex pb-4 pt-6 pl-6">
@@ -31,6 +36,7 @@ export default function Template({text, imageSource, widthSize, heightSize, link
                             {e}
                         </ul>
                    )}
+                   <WebappIcon imageSource={logoSource} widthSize={widthLogo} heightSize={heightLogo}/>
                 </div>
 
             </div>
