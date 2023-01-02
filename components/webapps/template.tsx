@@ -32,7 +32,9 @@ export default function Template({text, imageSource, widthSize, heightSize, link
                         </ul>
                    )}
                 </div>
+
             </div>
+            
         </Link>
     )
 }
