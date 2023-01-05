@@ -18,7 +18,7 @@ export default function Resume(){
                 <div>
                     <HeaderInfo header="Expertise" d1="" d2="" d3="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
                     <div className="pt-2">
-                        <ResumeInfo title={[]} info={["Languages: JavaScript, HTML, C++, Python", "Front-End Framework: React", "Game Engine: Unity", "Databases: NoSQL (MongoDB), DGraph", "Source Control: Git, PlasticSCM", "Operating System: Windows"]} subcontent={[]}/>
+                        <ResumeInfo title={[]} info={["Languages: JavaScript, TypeScript, HTML, C++, Python", "Front-End Framework: React", "Game Engine: Unity", "Databases: NoSQL (MongoDB), DGraph", "Source Control: Git, PlasticSCM", "Operating System: Windows"]} subcontent={[]}/>
                     </div>
                     <div className="pt-6">
                         <ResumeInfo title={[]} info={["Adobe Cloud, Adobe Photoshop", "Responsive Design", "Agile Development", "Git, GitHub", "Microsoft Office", "Critical Thinking, Problem solving"]} subcontent={[""]}/>
