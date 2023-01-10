@@ -1,5 +1,6 @@
 import Link from "next/link"
 import CopyBtnDemo from "./copytoclipboard"
+import CopyToClipboard from "./copytoclipboard"
 
 interface props{
     content: string
@@ -15,7 +16,7 @@ export default function ContactInfo({content, pageLink, d1}: props) {
                     <div className="pl-4">
                         {content}
                     </div>
-                    <CopyBtnDemo textToCopy={content}/>
+                    <CopyToClipboard textToCopy={content}/>
                 </div> 
             </Link>                    
     )
