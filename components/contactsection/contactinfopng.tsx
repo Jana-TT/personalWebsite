@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import CopyBtnDemo from "./copytoclipboard"
 
 interface props{
     content: string
@@ -21,6 +22,5 @@ export default function ContactInfo({content, pageLink, imageSource, widthSize, 
                 </div> 
             </Link>                    
         </div>
-        
     )
 }
